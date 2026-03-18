@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Hotel Aviro</title>
+  
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+          extend: {
+              colors: {
+                  "primary": "#005F2F",
+                  "secondary": "#D85D31",
+                  "muted": "#9C9B6D",
+                  "creme": "#F2F2D8",
+                  "background-light": "#F2F2D8",
+                  "background-dark": "#005F2F",
+                  "surface": "#F2F2D8",
+                  "border-muted": "rgba(0,95,47,0.1)"
+              },
+              fontFamily: {
+                  "display": ["Inter", "sans-serif"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "9999px"},
+          },
+      },
+    }
+  </script>
+  <style type="text/tailwindcss">
+    body { font-family: 'Inter', sans-serif; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+    :root {
+        --charcoal: #1a1a1a;
+        --forest: #223a2d;
+        --border: #333333;
+    }
+    .booking-sidebar {
+        @apply sticky top-[88px] h-fit;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+  </style>
+</head>
+<body class="font-display transition-colors duration-300 bg-creme text-primary">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
