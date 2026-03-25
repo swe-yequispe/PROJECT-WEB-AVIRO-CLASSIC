@@ -1,10 +1,10 @@
-
+﻿﻿
 export default function AdminHabitaciones() {
   return (
     <div className="font-display bg-creme text-primary min-h-screen flex overflow-hidden">
       <aside className="fixed inset-y-0 left-auto w-64 bg-primary text-creme flex flex-col z-50 border-r border-white/5">
         <div className="p-8 border-b border-white/5">
-          <img alt="Logo Aviro Light" className="h-8 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+          <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
           <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mt-4">Panel de Control</p>
         </div>
         <nav className="flex-grow py-6 overflow-y-auto">
@@ -56,13 +56,13 @@ export default function AdminHabitaciones() {
           <div class="flex items-center gap-8">
             <div>
               <h1 class="text-2xl font-black text-primary tracking-tighter uppercase">AVIRO INVENTARIO</h1>
-              <p class="text-[10px] font-bold text-muted uppercase tracking-[0.2em] mt-1">Administración de Habitaciones • En Vivo</p>
+              <p class="text-[10px] font-bold text-muted uppercase tracking-[0.2em] mt-1">Administración de Habitaciones ñ?ñ En Vivo</p>
             </div>
           </div>
           <div class="flex items-center gap-4">
             <div class="relative">
               <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-muted text-lg">search</span>
-              <input class="bg-white border border-primary/10 pl-10 pr-4 py-2.5 text-[10px] font-black uppercase tracking-widest focus:ring-secondary focus:border-secondary w-64" placeholder="BUSCAR HABITACIÓN..." type="text"/>
+              <input class="bg-white border border-primary/10 pl-10 pr-4 py-2.5 text-[10px] font-black uppercase tracking-widest focus:ring-secondary focus:border-secondary w-64" placeholder="BUSCAR HABITACIñ"N..." type="text"/>
             </div>
             <button class="bg-secondary text-creme px-6 py-2.5 text-[10px] font-black uppercase tracking-[0.2em] hover:bg-secondary/90 transition-all flex items-center gap-2 shadow-sm">
               <span class="material-symbols-outlined text-sm">add</span>
@@ -336,4 +336,9 @@ export default function AdminHabitaciones() {
     </div>
   );
 }
+
+
+
+
+
 

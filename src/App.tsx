@@ -1,8 +1,37 @@
-import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+﻿import { useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 
 function GlobalNavigationHandler() {
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const pathname = location.pathname.toLowerCase();
+    let currentSection = 'inicio';
+
+    if (pathname.includes('habitaciones')) currentSection = 'habitaciones';
+    if (pathname.includes('restaurante')) currentSection = 'restaurante';
+    if (pathname.includes('/life')) currentSection = 'life';
+    if (pathname.includes('corporativos')) currentSection = 'corporativos';
+
+    const navLinks = Array.from(document.querySelectorAll('header nav a'));
+    navLinks.forEach((link) => {
+      const label = (link.textContent || '').trim().toLowerCase();
+      let linkSection = '';
+
+      if (label.includes('inicio')) linkSection = 'inicio';
+      if (label.includes('habitaciones')) linkSection = 'habitaciones';
+      if (label.includes('restaurante')) linkSection = 'restaurante';
+      if (label.includes('life')) linkSection = 'life';
+      if (label.includes('corporativos')) linkSection = 'corporativos';
+
+      link.classList.add('nav-link');
+      link.classList.remove('nav-active');
+      if (linkSection && linkSection === currentSection) {
+        link.classList.add('nav-active');
+      }
+    });
+  }, [location.pathname]);
 
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
@@ -18,10 +47,10 @@ function GlobalNavigationHandler() {
         return;
       }
 
-      // Check if it's "Iniciar sesion" or "Iniciar sesión"
+      // Check if it's "Iniciar sesión" or "Iniciar sesión"
       if (
         (target.tagName === 'BUTTON' || target.tagName === 'A' || target.closest('button') || target.closest('a')) && 
-        (target.textContent?.toLowerCase().includes('iniciar sesion') || target.textContent?.toLowerCase().includes('iniciar sesión'))
+        (target.textContent?.toLowerCase().includes('Iniciar sesión') || target.textContent?.toLowerCase().includes('iniciar sesión'))
       ) {
         e.preventDefault();
         navigate('/login');
@@ -188,3 +217,5 @@ function App() {
 }
 
 export default App;
+
+

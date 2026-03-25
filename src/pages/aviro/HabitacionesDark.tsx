@@ -1,15 +1,15 @@
-
+﻿﻿
 export default function HabitacionesDark() {
   return (
-    <div className="font-display transition-colors duration-300 bg-black text-zinc-100">
+    <div className="font-display bg-zinc-900 text-primary transition-colors duration-300">
       <div className="layout-container flex h-full grow flex-col min-h-screen">
         <header className="sticky top-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-white/5 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-100 text-xs font-bold uppercase tracking-widest border-b-2 border-secondary pb-1" href="#">Habitaciones Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-100 text-xs font-bold uppercase tracking-widest border-b-2 border-secondary pb-1" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-white/5 pr-4">
                 <button className="p-1.5 hover:bg-white/5 rounded transition-colors text-zinc-400 hover:text-primary">
@@ -22,18 +22,18 @@ export default function HabitacionesDark() {
                   <span className="material-symbols-outlined text-lg">light_mode</span>
                 </button>
               </div>
-              <button className="hidden sm:flex items-center justify-center rounded px-5 h-9 bg-zinc-100 text-zinc-100 text-xs font-bold uppercase tracking-widest hover:opacity-90 transition-all">
+              <button className="hidden sm:flex items-center justify-center rounded px-5 h-9 bg-zinc-900 text-zinc-100 text-xs font-bold uppercase tracking-widest hover:opacity-90 transition-all">
                 Reservar ahora
               </button>
-              <button className="flex items-center justify-center rounded h-9 px-5 border border-primary/20 bg-transparent text-zinc-100 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
-                Iniciar sesion
+              <button className="flex items-center justify-center rounded h-9 px-5 border border-white/10 bg-transparent text-zinc-100 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
+                Iniciar sesión
               </button>
             </div>
           </div>
         </header>
 
         <main className="flex flex-col" dangerouslySetInnerHTML={{ __html: `
-          <section class="relative py-20 px-6 lg:px-20 bg-black overflow-hidden">
+          <section class="relative py-20 px-6 lg:px-20 bg-zinc-900 overflow-hidden">
             <div class="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
               <span class="material-symbols-outlined text-[400px] text-zinc-100 rotate-12">bed</span>
             </div>
@@ -75,13 +75,13 @@ export default function HabitacionesDark() {
               </div>
             </div>
           </section>
-          <section class="py-12 px-6 lg:px-20 bg-black">
+          <section class="py-12 px-6 lg:px-20 bg-zinc-900">
             <div class="max-w-7xl mx-auto">
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="group bg-zinc-900/40 border border-white/5 rounded-lg overflow-hidden flex flex-col hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
                   <div class="relative h-72 overflow-hidden">
                     <img alt="Suite Ejecutiva" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQtm0_ebNHxiJidbzguwT8yozEuF-JvV91jYti5zFMs0MHMbOqVq9nXxFzhwfmqzoc6mJivDX0X2wBlBs9Myoqhe8mkMNeNHMutTJMjEik8KInXhRy0xIIGHgjZk_0OtlovhI1t0gHFrL74v1posPU1xArhOT0HXDPswZp7tccsokR0CzOfxokp9cCokBp_VVk2MQ85qApNgdSLfXxfo3ula4RmiCf0kHbZrZ4svDFQ7BP9nGJPZuiHldn01N0BVVriwit0R7Y1BKj"/>
-                    <div class="absolute top-4 right-4 bg-zinc-100 text-zinc-100 text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Más Popular</div>
+                    <div class="absolute top-4 right-4 bg-zinc-900 text-zinc-100 text-[10px] font-bold px-3 py-1 uppercase tracking-widest rounded">Más Popular</div>
                   </div>
                   <div class="p-8 flex-grow flex flex-col">
                     <div class="flex justify-between items-start mb-4">
@@ -245,7 +245,7 @@ export default function HabitacionesDark() {
           <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-zinc-100/60 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-zinc-900/40/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -264,7 +264,7 @@ export default function HabitacionesDark() {
                 <ul class="space-y-4 text-zinc-100/60 text-sm">
                   <li><a class="hover:text-zinc-100 transition-colors" href="#">Inicio</a></li>
                   <li><a class="hover:text-zinc-100 transition-colors" href="#">Nuestros Servicios</a></li>
-                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Habitaciones Darkness</a></li>
+                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Habitaciones</a></li>
                   <li><a class="hover:text-zinc-100 transition-colors" href="#">Preguntas Frecuentes</a></li>
                   <li><a class="hover:text-zinc-100 transition-colors" href="#">Libro de Reclamaciones</a></li>
                 </ul>
@@ -310,4 +310,21 @@ export default function HabitacionesDark() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

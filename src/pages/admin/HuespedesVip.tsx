@@ -1,10 +1,10 @@
-
+﻿﻿
 export default function HuespedesVip() {
   return (
     <div className="font-display bg-creme text-primary min-h-screen flex overflow-hidden">
       <aside className="fixed inset-y-0 left-0 w-72 bg-primary text-creme flex flex-col z-50">
         <div className="p-8 border-b border-white/5">
-          <img alt="Logo Aviro Light" className="h-8 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+          <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
           <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mt-4">Loyalty Program Manager</p>
         </div>
         <nav className="flex-grow py-6 overflow-y-auto custom-scrollbar">
@@ -57,7 +57,7 @@ export default function HuespedesVip() {
             <div class="flex items-center gap-4">
               <div class="relative">
                 <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-muted text-sm">search</span>
-                <input class="pl-10 pr-4 py-2 bg-white border border-primary/10 text-[10px] font-bold tracking-widest uppercase focus:ring-0 focus:border-primary w-64 rounded-sm" placeholder="BUSCAR HUÉSPED..." type="text"/>
+                <input class="pl-10 pr-4 py-2 bg-white border border-primary/10 text-[10px] font-bold tracking-widest uppercase focus:ring-0 focus:border-primary w-64 rounded-sm" placeholder="BUSCAR HUñ?SPED..." type="text"/>
               </div>
             </div>
           </div>
@@ -281,7 +281,7 @@ export default function HuespedesVip() {
           </div>
         </div>
         <footer class="px-10 py-6 border-t border-primary/5 flex justify-between items-center bg-white">
-          <p class="text-[10px] font-bold text-muted uppercase tracking-widest">© 2024 Hotel Aviro Loyalty System • High Value Segment Management</p>
+          <p class="text-[10px] font-bold text-muted uppercase tracking-widest">© 2024 Hotel Aviro Loyalty System ñ?ñ High Value Segment Management</p>
           <div class="flex gap-6 text-[10px] font-bold text-muted uppercase tracking-widest">
             <a class="hover:text-primary transition-colors" href="#">Guía VIP</a>
             <a class="hover:text-primary transition-colors" href="#">Política de Privacidad</a>
@@ -292,4 +292,9 @@ export default function HuespedesVip() {
     </div>
   );
 }
+
+
+
+
+
 

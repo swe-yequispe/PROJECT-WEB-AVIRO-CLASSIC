@@ -1,4 +1,4 @@
-
+﻿﻿
 export default function LifeDark() {
   return (
     <div className="font-display bg-zinc-900 text-primary">
@@ -6,10 +6,10 @@ export default function LifeDark() {
         <header className="sticky top-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-white/5 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante Darkness</a><a className="text-zinc-100 text-xs font-black uppercase tracking-widest border-b-2 border-secondary" href="#">Life Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos Darkness</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-100 text-xs font-black uppercase tracking-widest border-b-2 border-secondary" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-white/5 pr-4">
                 <button className="p-1.5 hover:bg-white/5 rounded transition-colors text-zinc-400 hover:text-primary">
@@ -26,7 +26,7 @@ export default function LifeDark() {
                 Reservar ahora
               </button>
               <button className="flex items-center justify-center rounded h-9 px-5 border border-white/10 bg-transparent text-zinc-100 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
-                Iniciar sesion
+                Iniciar sesión
               </button>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function LifeDark() {
                   <img alt="Interior de lujo" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000 ease-in-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaLQ3E9FjejTvUcewdnINn8UedkPichivCXHZk2HRxaZl4d186DdSXwalzGXwCXm9A95uFanmckXH_LnmNN38diQ4LtXVKgp4Mblp-skgy2c0MzkwhfIfZAj6jUh9AF3_t4Ala55N7Ra60AwIHKDmzQW8dNCr03Oqfr1_smuQ2Fhss6jS-djSU7uSVg0LC8ob3Cg6gEKYSSQJYIjWP_cvcdxzJ6b0eWk0UFHggPinTpVUIX9_Rx2UZpCIbVEfWPugjbNsdoWwYqptx"/>
                 </div>
                 <div class="absolute -bottom-10 -left-10 bg-secondary p-8 hidden lg:block max-w-xs">
-                  <p class="text-white text-sm font-medium italic">"La verdadera exclusividad no es el lujo, sino el reconocimiento de sus preferencias antes de que las mencione."</p>
+                  <p class="text-zinc-100 text-sm font-medium italic">"La verdadera exclusividad no es el lujo, sino el reconocimiento de sus preferencias antes de que las mencione."</p>
                 </div>
               </div>
             </div>
@@ -163,18 +163,18 @@ export default function LifeDark() {
               <h2 class="font-serif text-5xl mb-10 italic">Su próxima estancia merece ser extraordinaria.</h2>
               <p class="text-zinc-400 text-lg mb-12 max-w-2xl mx-auto editorial-text">Comience su camino en Life hoy mismo. Regístrese y obtenga beneficios inmediatos en su primera reserva a través de nuestra web.</p>
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button class="bg-secondary text-white px-12 py-5 text-xs font-black uppercase tracking-widest hover:opacity-90 transition-all">Registrarse Ahora</button>
+                <button class="bg-secondary text-zinc-100 px-12 py-5 text-xs font-black uppercase tracking-widest hover:opacity-90 transition-all">Registrarse Ahora</button>
                 <button class="border border-creme/20 text-zinc-100 px-12 py-5 text-xs font-black uppercase tracking-widest hover:bg-zinc-900/10 transition-all">Ver Más Beneficios</button>
               </div>
             </div>
           </section>
         `}} />
 
-        <footer className="bg-zinc-900 text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
+        <footer className="text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
           <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-zinc-500 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -239,4 +239,20 @@ export default function LifeDark() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,15 +1,15 @@
-
+﻿﻿
 export default function ConfirmacionDark() {
   return (
-    <div className="font-display transition-colors duration-300 bg-zinc-900 text-primary">
+    <div className="font-display bg-zinc-900 text-primary transition-colors duration-300">
       <div className="layout-container flex h-full grow flex-col min-h-screen">
         <header className="sticky top-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-white/5 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos Darkness</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-white/5 pr-4">
                 <button className="p-1.5 hover:bg-white/5 rounded transition-colors text-zinc-400 hover:text-primary">
@@ -26,7 +26,7 @@ export default function ConfirmacionDark() {
                 Reservar ahora
               </button>
               <button className="flex items-center justify-center rounded h-9 px-5 border border-white/10 bg-transparent text-zinc-100 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
-                Iniciar sesion
+                Iniciar sesión
               </button>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function ConfirmacionDark() {
                 <p class="text-zinc-500 font-medium">Código de Reserva: <span class="text-zinc-100">AV-9428510</span></p>
               </div>
               <div class="flex gap-4 w-full md:w-auto">
-                <button class="flex-1 md:flex-none bg-secondary hover:opacity-90 text-white px-8 py-4 rounded text-xs font-black uppercase tracking-widest transition-all">
+                <button class="flex-1 md:flex-none bg-secondary hover:opacity-90 text-zinc-100 px-8 py-4 rounded text-xs font-black uppercase tracking-widest transition-all">
                   Gestionar Reserva
                 </button>
                 <button class="flex-1 md:flex-none border border-creme/20 hover:bg-white/10 text-zinc-100 px-8 py-4 rounded text-xs font-black uppercase tracking-widest transition-all">
@@ -75,7 +75,7 @@ export default function ConfirmacionDark() {
                   </div>
                 </div>
                 <div class="space-y-4">
-                  <details class="group bg-black/40 border border-white/5 rounded-lg overflow-hidden" open="">
+                  <details class="group bg-zinc-900/40 border border-white/5 rounded-lg overflow-hidden" open="">
                     <summary class="flex items-center justify-between p-6 cursor-pointer hover:bg-white/5 transition-all" style="list-style: none;">
                       <div class="flex items-center gap-4">
                         <span class="material-symbols-outlined text-secondary">hotel</span>
@@ -122,7 +122,7 @@ export default function ConfirmacionDark() {
                       </div>
                     </div>
                   </details>
-                  <details class="group bg-black/40 border border-white/5 rounded-lg overflow-hidden">
+                  <details class="group bg-zinc-900/40 border border-white/5 rounded-lg overflow-hidden">
                     <summary class="flex items-center justify-between p-6 cursor-pointer hover:bg-white/5 transition-all" style="list-style: none;">
                       <div class="flex items-center gap-4">
                         <span class="material-symbols-outlined text-secondary">restaurant</span>
@@ -197,7 +197,7 @@ export default function ConfirmacionDark() {
                     </li>
                   </ul>
                 </div>
-                <div class="bg-black p-8 border border-white/5 rounded-lg shadow-sm">
+                <div class="bg-zinc-900 p-8 border border-white/5 rounded-lg shadow-sm">
                   <h3 class="text-xs font-black text-zinc-100 uppercase tracking-[0.2em] mb-6">Asistencia Personalizada</h3>
                   <p class="text-sm text-zinc-500 mb-8 leading-relaxed">¿Necesitas algún requerimiento especial o tienes dudas sobre tu llegada?</p>
                   <button class="w-full bg-zinc-900 hover:opacity-90 text-zinc-100 py-4 rounded text-xs font-black uppercase tracking-widest transition-all flex items-center justify-center gap-3">
@@ -215,11 +215,11 @@ export default function ConfirmacionDark() {
           </section>
         `}} />
 
-        <footer className="bg-zinc-900 text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
+        <footer className="text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
           <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-zinc-500 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -284,4 +284,20 @@ export default function ConfirmacionDark() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

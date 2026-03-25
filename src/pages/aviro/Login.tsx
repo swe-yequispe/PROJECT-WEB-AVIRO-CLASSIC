@@ -1,4 +1,4 @@
-import AviroLayoutLight from '../../layouts/AviroLayoutLight';
+﻿﻿import AviroLayoutLight from '../../layouts/AviroLayoutLight';
 
 export default function Login() {
   return (
@@ -40,7 +40,7 @@ export default function Login() {
                 <label class="text-[10px] font-black text-primary uppercase tracking-[0.2em]" for="password">Contraseña</label>
                 <div class="relative group">
                   <span class="material-symbols-outlined absolute right-0 top-1/2 -translate-y-1/2 text-primary/30 group-focus-within:text-secondary transition-colors">lock</span>
-                  <input class="login-input" id="password" placeholder="••••••••" type="password"/>
+                  <input class="login-input" id="password" placeholder="ñ?ññ?ññ?ññ?ññ?ññ?ññ?ññ?ñ" type="password"/>
                 </div>
               </div>
               <div class="flex items-center justify-between">
@@ -69,4 +69,6 @@ export default function Login() {
     </AviroLayoutLight>
   );
 }
+
+
 

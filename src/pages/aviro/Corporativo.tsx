@@ -1,4 +1,4 @@
-
+﻿﻿
 export default function Corporativo() {
   return (
     <div className="font-display bg-creme text-primary">
@@ -6,10 +6,10 @@ export default function Corporativo() {
         <header className="sticky top-0 z-50 bg-creme/95 backdrop-blur-md border-b border-primary/10 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="#">Inicio</a><a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="#">Habitaciones</a><a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="#">Restaurante</a><a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="#">Life</a><a className="text-primary font-bold text-xs uppercase tracking-widest border-b-2 border-secondary pb-1" href="#">Corporativos</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="#">Inicio</a><a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="#">Habitaciones</a><a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="#">Restaurante</a><a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="#">Life</a><a className="text-primary font-bold text-xs uppercase tracking-widest border-b-2 border-secondary pb-1" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-primary/10 pr-4">
                 <button className="p-1.5 hover:bg-primary/5 rounded transition-colors text-primary/70 hover:text-primary">
@@ -300,7 +300,7 @@ export default function Corporativo() {
                 </div>
                 <div class="bg-creme p-12 text-center group transition-all">
                   <div class="size-16 rounded border border-primary/10 flex items-center justify-center text-primary/40 text-xl font-black mb-8 mx-auto group-hover:bg-primary group-hover:text-creme transition-all">02</div>
-                  <h4 class="text-lg font-bold text-primary mb-4">Código Único</h4>
+                  <h4 class="text-lg font-bold text-primary mb-4">Código ñsnico</h4>
                   <p class="text-muted text-sm">Recibe un código exclusivo para que tus colaboradores reserven directamente.</p>
                 </div>
                 <div class="bg-creme p-12 text-center group transition-all">
@@ -340,7 +340,7 @@ export default function Corporativo() {
           <div class="max-w-7xl mx-auto max-w-[1440px]">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-creme/60 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -405,4 +405,10 @@ export default function Corporativo() {
     </div>
   );
 }
+
+
+
+
+
+
 

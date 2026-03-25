@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+﻿﻿import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
 interface AviroLayoutLightProps {
@@ -12,15 +12,15 @@ export default function AviroLayoutLight({ children }: AviroLayoutLightProps) {
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex items-center gap-4">
             <Link to="/">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams" />
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </Link>
           </div>
-          <nav className="hidden xl:flex items-center gap-6">
-            <Link className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" to="/">Inicio</Link>
-            <Link className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" to="/habitaciones">Habitaciones</Link>
-            <Link className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" to="/restaurante">Restaurante</Link>
-            <Link className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" to="/life">Life</Link>
-            <Link className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" to="/corporativos">Corporativos</Link>
+          <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+            <Link className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" to="/">Inicio</Link>
+            <Link className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" to="/habitaciones">Habitaciones</Link>
+            <Link className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" to="/restaurante">Restaurante</Link>
+            <Link className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" to="/life">Life</Link>
+            <Link className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" to="/corporativos">Corporativos</Link>
           </nav>
           <div className="flex items-center gap-3">
             <div className="hidden md:flex items-center gap-2 mr-4 border-r border-primary/10 pr-4">
@@ -38,7 +38,7 @@ export default function AviroLayoutLight({ children }: AviroLayoutLightProps) {
               Reservar ahora
             </Link>
             <Link to="/login" className="flex items-center justify-center rounded h-9 px-5 border border-primary/20 bg-transparent text-primary text-xs font-bold uppercase tracking-widest hover:bg-primary/5 transition-all">
-              Iniciar sesion
+              Iniciar sesión
             </Link>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function AviroLayoutLight({ children }: AviroLayoutLightProps) {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
             <div>
-              <img alt="Logo Aviro Light" className="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS" />
+              <img alt="Logo Aviró Hotel Plaza" className="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
               <p className="text-creme/60 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
               <div className="flex gap-3">
                 <a className="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -114,3 +114,9 @@ export default function AviroLayoutLight({ children }: AviroLayoutLightProps) {
     </div>
   );
 }
+
+
+
+
+
+

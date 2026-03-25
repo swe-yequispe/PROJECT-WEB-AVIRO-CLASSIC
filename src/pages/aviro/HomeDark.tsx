@@ -1,32 +1,32 @@
-
+﻿﻿
 export default function HomeDark() {
   return (
-    <div className="bg-zinc-900 text-zinc-100 font-display transition-colors duration-300 bg-black">
+    <div className="font-display bg-zinc-900 text-primary transition-colors duration-300">
       <div className="layout-container flex h-full grow flex-col min-h-screen">
         <header className="sticky top-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-white/5 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-white transition-colors" href="#">Corporativos</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-white/10 pr-4">
-                <button className="p-1.5 hover:bg-white/10 rounded transition-colors text-zinc-400 hover:text-white">
+                <button className="p-1.5 hover:bg-white/10 rounded transition-colors text-zinc-400 hover:text-zinc-100">
                   <span className="material-symbols-outlined text-lg">language</span>
                 </button>
-                <button className="p-1.5 hover:bg-white/10 rounded transition-colors text-zinc-400 hover:text-white">
+                <button className="p-1.5 hover:bg-white/10 rounded transition-colors text-zinc-400 hover:text-zinc-100">
                   <span className="material-symbols-outlined text-lg">payments</span>
                 </button>
-                <button className="p-1.5 hover:bg-white/10 rounded transition-colors text-zinc-400 hover:text-white">
+                <button className="p-1.5 hover:bg-white/10 rounded transition-colors text-zinc-400 hover:text-zinc-100">
                   <span className="material-symbols-outlined text-lg">light_mode</span>
                 </button>
               </div>
-              <button className="hidden sm:flex items-center justify-center rounded px-5 h-9 bg-zinc-100 text-zinc-900 text-xs font-bold uppercase tracking-widest hover:bg-white transition-all">
+              <button className="hidden sm:flex items-center justify-center rounded px-5 h-9 bg-zinc-900 text-zinc-100 text-xs font-bold uppercase tracking-widest hover:opacity-90 transition-all">
                 Reservar ahora
               </button>
               <button className="flex items-center justify-center rounded h-9 px-5 border border-white/10 bg-transparent text-zinc-300 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
-                Iniciar sesion
+                Iniciar sesión
               </button>
             </div>
           </div>
@@ -41,19 +41,19 @@ export default function HomeDark() {
                   <div class="flex flex-col gap-2">
                     <label class="text-[10px] font-bold text-zinc-500 uppercase tracking-wider">Check-in</label>
                     <div class="relative group">
-                      <input class="w-full bg-zinc-800/50 border border-white/5 rounded p-3 text-sm text-white focus:border-secondary focus:ring-0 transition-all" type="date"/>
+                      <input class="w-full bg-zinc-800/50 border border-white/5 rounded p-3 text-sm text-zinc-100 focus:border-secondary focus:ring-0 transition-all" type="date"/>
                     </div>
                   </div>
                   <div class="flex flex-col gap-2">
                     <label class="text-[10px] font-bold text-zinc-500 uppercase tracking-wider">Check-out</label>
                     <div class="relative group">
-                      <input class="w-full bg-zinc-800/50 border border-white/5 rounded p-3 text-sm text-white focus:border-secondary focus:ring-0 transition-all" type="date"/>
+                      <input class="w-full bg-zinc-800/50 border border-white/5 rounded p-3 text-sm text-zinc-100 focus:border-secondary focus:ring-0 transition-all" type="date"/>
                     </div>
                   </div>
                   <div class="flex flex-col gap-2">
                     <label class="text-[10px] font-bold text-zinc-500 uppercase tracking-wider">Huéspedes</label>
                     <div class="relative">
-                      <select class="w-full bg-zinc-800/50 border border-white/5 rounded p-3 text-sm text-white focus:border-secondary focus:ring-0 appearance-none">
+                      <select class="w-full bg-zinc-800/50 border border-white/5 rounded p-3 text-sm text-zinc-100 focus:border-secondary focus:ring-0 appearance-none">
                         <option>1 Adulto</option>
                         <option selected="">2 Adultos</option>
                         <option>2 Adultos, 1 Niño</option>
@@ -62,7 +62,7 @@ export default function HomeDark() {
                       <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-zinc-500 pointer-events-none text-lg">expand_more</span>
                     </div>
                   </div>
-                  <button class="w-full bg-secondary hover:bg-[#365d48] text-white py-4 rounded text-xs font-black uppercase tracking-widest transition-all mt-8 flex items-center justify-center gap-2">
+                  <button class="w-full bg-secondary hover:bg-[#365d48] text-zinc-100 py-4 rounded text-xs font-black uppercase tracking-widest transition-all mt-8 flex items-center justify-center gap-2">
                     <span class="material-symbols-outlined text-lg">search</span>
                     Consultar Disponibilidad
                   </button>
@@ -81,7 +81,7 @@ export default function HomeDark() {
                 <img alt="Hotel Exterior" class="w-full h-full object-cover grayscale opacity-40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaLQ3E9FjejTvUcewdnINn8UedkPichivCXHZk2HRxaZl4d186DdSXwalzGXwCXm9A95uFanmckXH_LnmNN38diQ4LtXVKgp4Mblp-skgy2c0MzkwhfIfZAj6jUh9AF3_t4Ala55N7Ra60AwIHKDmzQW8dNCr03Oqfr1_smuQ2Fhss6jS-djSU7uSVg0LC8ob3Cg6gEKYSSQJYIjWP_cvcdxzJ6b0eWk0UFHggPinTpVUIX9_Rx2UZpCIbVEfWPugjbNsdoWwYqptx"/>
               </div>
               <div class="relative z-20 max-w-3xl">
-                <h1 class="text-white text-4xl lg:text-7xl font-black leading-[1.1] tracking-tighter mb-6">
+                <h1 class="text-zinc-100 text-4xl lg:text-7xl font-black leading-[1.1] tracking-tighter mb-6">
                   Reserva tu estadía en minutos, sin intermediarios.
                 </h1>
                 <p class="text-zinc-400 text-lg lg:text-xl font-normal leading-relaxed max-w-xl mb-0">
@@ -89,7 +89,7 @@ export default function HomeDark() {
                 </p>
               </div>
               <div class="lg:hidden mt-12 bg-zinc-900 border border-white/10 p-4 rounded grid grid-cols-1 gap-4 z-20">
-                <button class="bg-secondary text-white py-3 rounded text-xs font-bold uppercase tracking-widest">Reservar Ahora</button>
+                <button class="bg-secondary text-zinc-100 py-3 rounded text-xs font-bold uppercase tracking-widest">Reservar Ahora</button>
               </div>
             </div>
           </section>
@@ -97,7 +97,7 @@ export default function HomeDark() {
             <div class="max-w-full mx-auto">
               <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
                 <div class="max-w-xl">
-                  <h2 class="text-2xl md:text-4xl font-black text-white mb-4 tracking-tighter">Comodidad total en un solo lugar.</h2>
+                  <h2 class="text-2xl md:text-4xl font-black text-zinc-100 mb-4 tracking-tighter">Comodidad total en un solo lugar.</h2>
                   <div class="h-1 w-20 bg-secondary"></div>
                 </div>
                 <p class="text-zinc-500 text-sm font-medium uppercase tracking-widest">Aviro Business Class</p>
@@ -134,27 +134,27 @@ export default function HomeDark() {
               </div>
             </div>
           </section>
-          <section class="py-24 bg-secondary text-white relative overflow-hidden">
-            <div class="absolute inset-0 bg-black/20 pointer-events-none"></div>
+          <section class="py-24 bg-secondary text-zinc-100 relative overflow-hidden">
+            <div class="absolute inset-0 bg-zinc-900/20 pointer-events-none"></div>
             <div class="max-w-7xl mx-auto px-6 lg:px-20 relative z-10">
               <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                 <div>
                   <h2 class="text-4xl font-black mb-12 tracking-tighter">Nuestra excelencia en números</h2>
                   <div class="grid grid-cols-2 gap-px bg-white/10 border border-white/10">
                     <div class="bg-secondary/40 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-white mb-2">15k+</div>
+                      <div class="text-5xl font-black text-zinc-100 mb-2">15k+</div>
                       <div class="text-zinc-300 text-xs font-bold uppercase tracking-widest">Clientes satisfechos</div>
                     </div>
                     <div class="bg-secondary/40 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-white mb-2">120+</div>
+                      <div class="text-5xl font-black text-zinc-100 mb-2">120+</div>
                       <div class="text-zinc-300 text-xs font-bold uppercase tracking-widest">Empresas que confían</div>
                     </div>
                     <div class="bg-secondary/40 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-white mb-2">25</div>
+                      <div class="text-5xl font-black text-zinc-100 mb-2">25</div>
                       <div class="text-zinc-300 text-xs font-bold uppercase tracking-widest">Años de servicio</div>
                     </div>
                     <div class="bg-secondary/40 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-white mb-2">4.9</div>
+                      <div class="text-5xl font-black text-zinc-100 mb-2">4.9</div>
                       <div class="text-zinc-300 text-xs font-bold uppercase tracking-widest">Calificación promedio</div>
                     </div>
                   </div>
@@ -165,9 +165,9 @@ export default function HomeDark() {
                     "La mejor experiencia corporativa que he tenido. El proceso de reserva es increíblemente fluido y la atención al detalle en las habitaciones es de primer nivel. Hotel Aviro es mi elección segura en cada viaje."
                   </p>
                   <div class="flex items-center gap-5">
-                    <div class="size-14 rounded bg-secondary flex items-center justify-center text-white font-black text-xl">JD</div>
+                    <div class="size-14 rounded bg-secondary flex items-center justify-center text-zinc-100 font-black text-xl">JD</div>
                     <div>
-                      <p class="font-black text-white uppercase tracking-wider">Julian Delgado</p>
+                      <p class="font-black text-zinc-100 uppercase tracking-wider">Julian Delgado</p>
                       <p class="text-xs text-zinc-500 font-bold uppercase tracking-widest">Director Ejecutivo, TechCorp</p>
                     </div>
                   </div>
@@ -180,7 +180,7 @@ export default function HomeDark() {
               <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center mb-32">
                 <div>
                   <span class="text-secondary font-black uppercase tracking-[0.3em] text-[10px] mb-6 block border-l-2 border-secondary pl-3">¿Por qué elegirnos?</span>
-                  <h2 class="text-4xl font-black text-white mb-10 tracking-tighter">Diseñado para el viajero moderno</h2>
+                  <h2 class="text-4xl font-black text-zinc-100 mb-10 tracking-tighter">Diseñado para el viajero moderno</h2>
                   <ul class="space-y-8">
                     <li class="flex gap-5">
                       <span class="material-symbols-outlined text-secondary shrink-0">verified_user</span>
@@ -214,25 +214,25 @@ export default function HomeDark() {
                 <h2 class="text-xs font-black text-zinc-500 uppercase tracking-[0.4em] mb-16 text-center">Proceso Simple</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/5 border border-white/5">
                   <div class="bg-zinc-900 p-12 text-center group">
-                    <div class="size-16 rounded border border-white/10 flex items-center justify-center text-zinc-400 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-white group-hover:border-secondary transition-all">01</div>
-                    <h4 class="text-lg font-bold text-white mb-4">Consulta</h4>
+                    <div class="size-16 rounded border border-white/10 flex items-center justify-center text-zinc-400 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-zinc-100 group-hover:border-secondary transition-all">01</div>
+                    <h4 class="text-lg font-bold text-zinc-100 mb-4">Consulta</h4>
                     <p class="text-zinc-500 text-sm">Busca tus fechas y elige tu habitación ideal.</p>
                   </div>
                   <div class="bg-zinc-900 p-12 text-center group">
-                    <div class="size-16 rounded border border-white/10 flex items-center justify-center text-zinc-400 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-white group-hover:border-secondary transition-all">02</div>
-                    <h4 class="text-lg font-bold text-white mb-4">Confirmación</h4>
+                    <div class="size-16 rounded border border-white/10 flex items-center justify-center text-zinc-400 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-zinc-100 group-hover:border-secondary transition-all">02</div>
+                    <h4 class="text-lg font-bold text-zinc-100 mb-4">Confirmación</h4>
                     <p class="text-zinc-500 text-sm">Recibe tu voucher digital al instante.</p>
                   </div>
                   <div class="bg-zinc-900 p-12 text-center group">
-                    <div class="size-16 rounded border border-white/10 flex items-center justify-center text-zinc-400 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-white group-hover:border-secondary transition-all">03</div>
-                    <h4 class="text-lg font-bold text-white mb-4">Estadía</h4>
+                    <div class="size-16 rounded border border-white/10 flex items-center justify-center text-zinc-400 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-zinc-100 group-hover:border-secondary transition-all">03</div>
+                    <h4 class="text-lg font-bold text-zinc-100 mb-4">Estadía</h4>
                     <p class="text-zinc-500 text-sm">Disfruta de la mejor experiencia en Aviro.</p>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <section class="py-16 px-6 lg:px-20 bg-black/30 border-y border-white/5">
+          <section class="py-16 px-6 lg:px-20 bg-zinc-900/30 border-y border-white/5">
             <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
               <h3 class="text-xs font-black uppercase tracking-[0.3em] text-zinc-500 border-l-2 border-zinc-700 pl-4">Métodos de Pago Seguros</h3>
               <div class="flex flex-wrap justify-center gap-12 opacity-40 grayscale">
@@ -261,7 +261,7 @@ export default function HomeDark() {
           <div class="max-w-7xl mx-auto max-w-screen-xl">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-zinc-500 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -278,11 +278,11 @@ export default function HomeDark() {
               <div>
                 <h4 class="text-xs font-black uppercase tracking-[0.2em] mb-8 text-zinc-100">Enlaces Rápidos</h4>
                 <ul class="space-y-4 text-zinc-500 text-sm">
-                  <li><a class="hover:text-white transition-colors" href="#">Inicio</a></li>
-                  <li><a class="hover:text-white transition-colors" href="#">Nuestros Servicios</a></li>
-                  <li><a class="hover:text-white transition-colors" href="#">Habitaciones</a></li>
-                  <li><a class="hover:text-white transition-colors" href="#">Preguntas Frecuentes</a></li>
-                  <li><a class="hover:text-white transition-colors" href="#">Libro de Reclamaciones</a></li>
+                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Inicio</a></li>
+                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Nuestros Servicios</a></li>
+                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Habitaciones</a></li>
+                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Preguntas Frecuentes</a></li>
+                  <li><a class="hover:text-zinc-100 transition-colors" href="#">Libro de Reclamaciones</a></li>
                 </ul>
               </div>
               <div>
@@ -316,8 +316,8 @@ export default function HomeDark() {
             <div class="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-zinc-600 text-[10px] font-bold uppercase tracking-widest">
               <p>© 2024 Hotel Aviro. Todos los derechos reservados.</p>
               <div class="flex gap-10">
-                <a class="hover:text-white transition-colors" href="#">Términos y Condiciones</a>
-                <a class="hover:text-white transition-colors" href="#">Política de Privacidad</a>
+                <a class="hover:text-zinc-100 transition-colors" href="#">Términos y Condiciones</a>
+                <a class="hover:text-zinc-100 transition-colors" href="#">Política de Privacidad</a>
               </div>
             </div>
           </div>
@@ -326,4 +326,17 @@ export default function HomeDark() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 

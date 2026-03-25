@@ -1,10 +1,10 @@
-
+﻿﻿
 export default function Reportes() {
   return (
     <div className="font-display bg-creme text-primary min-h-screen flex overflow-hidden">
       <aside className="fixed inset-y-0 left-auto w-72 bg-primary text-creme flex flex-col z-50 transform translate-x-[-1440px] xl:translate-x-0">
         <div className="p-8 border-b border-white/5">
-          <img alt="Logo Aviro Light" className="h-8 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+          <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
           <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mt-4">Panel de Control</p>
         </div>
         <nav className="flex-grow py-6 overflow-y-auto">
@@ -56,7 +56,7 @@ export default function Reportes() {
           <div class="flex items-center gap-8">
             <div>
               <h1 class="text-2xl font-black text-primary tracking-tighter uppercase">Hotel Aviro - Reporte Ejecutivo (Análisis)</h1>
-              <p class="text-[10px] font-bold text-muted uppercase tracking-[0.2em] mt-1">Reportes de Rendimiento Hotelero • 2024</p>
+              <p class="text-[10px] font-bold text-muted uppercase tracking-[0.2em] mt-1">Reportes de Rendimiento Hotelero ñ?ñ 2024</p>
             </div>
           </div>
           <div class="flex items-center gap-4">
@@ -77,7 +77,7 @@ export default function Reportes() {
               <div class="space-y-2">
                 <label class="flex items-center gap-3 group cursor-pointer p-2 hover:bg-primary/5 rounded">
                   <input checked="" class="form-radio text-secondary border-primary/20 size-4" name="period" type="radio"/>
-                  <span class="text-[10px] font-bold uppercase tracking-widest">Últimos 30 días</span>
+                  <span class="text-[10px] font-bold uppercase tracking-widest">ñsltimos 30 días</span>
                 </label>
                 <label class="flex items-center gap-3 group cursor-pointer p-2 hover:bg-primary/5 rounded">
                   <input class="form-radio text-secondary border-primary/20 size-4" name="period" type="radio"/>
@@ -250,7 +250,7 @@ export default function Reportes() {
             <div class="bg-white border border-primary/5 shadow-sm overflow-hidden">
               <div class="px-6 py-4 border-b border-primary/5 flex justify-between items-center">
                 <h3 class="text-xs font-black uppercase tracking-widest text-primary">Rendimiento por Categoría</h3>
-                <span class="text-[10px] font-bold text-muted uppercase">Últimos 30 días</span>
+                <span class="text-[10px] font-bold text-muted uppercase">ñsltimos 30 días</span>
               </div>
               <table class="w-full text-left min-w-full">
                 <thead class="bg-primary/5 text-[10px] font-black uppercase tracking-widest text-primary">
@@ -318,4 +318,9 @@ export default function Reportes() {
     </div>
   );
 }
+
+
+
+
+
 

@@ -1,10 +1,10 @@
-
+﻿﻿
 export default function Reservas() {
   return (
     <div className="font-display bg-creme text-primary min-h-screen flex overflow-hidden">
       <aside className="fixed inset-y-0 left-0 w-72 bg-primary text-creme flex flex-col z-50">
         <div className="p-8 border-b border-white/5">
-          <img alt="Logo Aviro Light" className="h-8 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+          <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
           <p className="text-[10px] font-black uppercase tracking-[0.2em] text-secondary mt-4">Panel de Control</p>
         </div>
         <nav className="flex-grow py-6 overflow-y-auto">
@@ -74,7 +74,7 @@ export default function Reservas() {
                 <label class="text-[9px] font-black uppercase tracking-widest text-muted">Búsqueda Rápida</label>
                 <div class="relative">
                   <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-muted text-lg">search</span>
-                  <input class="filter-input w-full pl-10" placeholder="ID, HUÉSPED O EMAIL..." type="text"/>
+                  <input class="filter-input w-full pl-10" placeholder="ID, HUñ?SPED O EMAIL..." type="text"/>
                 </div>
               </div>
               <div class="flex flex-col gap-2">
@@ -305,4 +305,9 @@ export default function Reservas() {
     </div>
   );
 }
+
+
+
+
+
 

@@ -1,37 +1,37 @@
-
+﻿﻿
 export default function HomeLight() {
   return (
-    <div className="font-display transition-colors duration-300 bg-creme text-primary">
+    <div className="font-display transition-colors duration-300 bg-white text-primary">
       <div className="layout-container flex h-full grow flex-col min-h-screen">
-        <header className="sticky top-0 z-50 bg-creme/95 backdrop-blur-md border-b border-primary/10 px-6 lg:px-12 py-4 xl:px-20">
+        <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-primary/10 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="/">Inicio</a>
-              <a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="/habitaciones">Habitaciones</a>
-              <a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="/restaurante">Restaurante</a>
-              <a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="/life">Life</a>
-              <a className="text-primary/70 text-xs font-bold uppercase tracking-widest hover:text-primary transition-colors" href="/corporativos">Corporativos</a>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="/">Inicio</a>
+              <a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="/habitaciones">Habitaciones</a>
+              <a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="/restaurante">Restaurante</a>
+              <a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="/life">Life</a>
+              <a className="text-primary/80 text-xs font-bold uppercase tracking-widest hover:text-secondary transition-colors" href="/corporativos">Corporativos</a>
             </nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-primary/10 pr-4">
-                <button className="p-1.5 hover:bg-primary/5 rounded transition-colors text-primary/70 hover:text-primary">
+                <button className="p-1.5 hover:bg-secondary/10 rounded transition-colors text-primary/70 hover:text-secondary">
                   <span className="material-symbols-outlined text-lg">language</span>
                 </button>
-                <button className="p-1.5 hover:bg-primary/5 rounded transition-colors text-primary/70 hover:text-primary">
+                <button className="p-1.5 hover:bg-secondary/10 rounded transition-colors text-primary/70 hover:text-secondary">
                   <span className="material-symbols-outlined text-lg">payments</span>
                 </button>
-                <button className="p-1.5 hover:bg-primary/5 rounded transition-colors text-primary/70 hover:text-primary">
+                <button className="p-1.5 hover:bg-secondary/10 rounded transition-colors text-primary/70 hover:text-secondary">
                   <span className="material-symbols-outlined text-lg">dark_mode</span>
                 </button>
               </div>
-              <button className="hidden sm:flex items-center justify-center rounded px-5 h-9 bg-primary text-creme text-xs font-bold uppercase tracking-widest hover:opacity-90 transition-all">
+              <button className="hidden sm:flex items-center justify-center rounded px-5 h-9 bg-secondary text-white text-xs font-bold uppercase tracking-widest hover:opacity-90 transition-all">
                 Reservar ahora
               </button>
-              <button className="flex items-center justify-center rounded h-9 px-5 border border-primary/20 bg-transparent text-primary text-xs font-bold uppercase tracking-widest hover:bg-primary/5 transition-all">
-                Iniciar sesion
+              <button className="flex items-center justify-center rounded h-9 px-5 border border-primary/20 bg-transparent text-primary text-xs font-bold uppercase tracking-widest hover:bg-secondary/10 hover:text-secondary transition-all">
+                Iniciar sesión
               </button>
             </div>
           </div>
@@ -41,30 +41,30 @@ export default function HomeLight() {
           <section class="relative min-h-[calc(100vh-88px)] flex flex-row overflow-hidden border-b border-primary/10">
             <aside class="hidden lg:flex flex-col w-[350px] bg-primary border-r border-primary/10 z-40 p-8 shrink-0">
               <div class="booking-sidebar w-full">
-                <h3 class="text-xs font-black text-creme uppercase tracking-[0.2em] mb-8 border-l-2 border-secondary pl-4">Gestión de Reserva</h3>
+                <h3 class="text-xs font-black text-white uppercase tracking-[0.2em] mb-8 border-l-2 border-secondary pl-4">Gestión de Reserva</h3>
                 <div class="space-y-6">
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] font-bold text-creme/60 uppercase tracking-wider">Check-in</label>
+                    <label class="text-[10px] font-bold text-creme uppercase tracking-wider">Check-in</label>
                     <div class="relative group">
-                      <input class="w-full bg-white/10 border border-white/10 rounded p-3 text-sm text-creme focus:border-secondary focus:ring-0 transition-all" style="filter: invert(0);" type="date"/>
+                      <input class="w-full bg-white/10 border border-white/10 rounded p-3 text-sm text-white focus:border-secondary focus:ring-0 transition-all" style="filter: invert(0);" type="date"/>
                     </div>
                   </div>
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] font-bold text-creme/60 uppercase tracking-wider">Check-out</label>
+                    <label class="text-[10px] font-bold text-creme uppercase tracking-wider">Check-out</label>
                     <div class="relative group">
-                      <input class="w-full bg-white/10 border border-white/10 rounded p-3 text-sm text-creme focus:border-secondary focus:ring-0 transition-all" type="date"/>
+                      <input class="w-full bg-white/10 border border-white/10 rounded p-3 text-sm text-white focus:border-secondary focus:ring-0 transition-all" type="date"/>
                     </div>
                   </div>
                   <div class="flex flex-col gap-2">
-                    <label class="text-[10px] font-bold text-creme/60 uppercase tracking-wider">Huéspedes</label>
+                    <label class="text-[10px] font-bold text-creme uppercase tracking-wider">Huéspedes</label>
                     <div class="relative">
-                      <select class="w-full bg-white/10 border border-white/10 rounded p-3 text-sm text-creme focus:border-secondary focus:ring-0 appearance-none">
-                        <option class="text-zinc-900">1 Adulto</option>
-                        <option class="text-zinc-900" selected="">2 Adultos</option>
-                        <option class="text-zinc-900">2 Adultos, 1 Niño</option>
-                        <option class="text-zinc-900">Grupo Corporativo</option>
+                      <select class="w-full bg-white/10 border border-white/10 rounded p-3 text-sm text-white focus:border-secondary focus:ring-0 appearance-none">
+                        <option class="text-primary">1 Adulto</option>
+                        <option class="text-primary" selected="">2 Adultos</option>
+                        <option class="text-primary">2 Adultos, 1 Niño</option>
+                        <option class="text-primary">Grupo Corporativo</option>
                       </select>
-                      <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-creme/50 pointer-events-none text-lg">expand_more</span>
+                      <span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-creme/80 pointer-events-none text-lg">expand_more</span>
                     </div>
                   </div>
                   <button class="w-full bg-secondary hover:opacity-90 text-white py-4 rounded text-xs font-black uppercase tracking-widest transition-all mt-8 flex items-center justify-center gap-2">
@@ -72,7 +72,7 @@ export default function HomeLight() {
                     Consultar Disponibilidad
                   </button>
                   <div class="pt-8 border-t border-white/10">
-                    <div class="flex items-center gap-3 text-creme/50">
+                    <div class="flex items-center gap-3 text-creme">
                       <span class="material-symbols-outlined text-sm text-secondary">bolt</span>
                       <span class="text-[10px] font-bold uppercase tracking-tighter">Confirmación Inmediata</span>
                     </div>
@@ -80,32 +80,32 @@ export default function HomeLight() {
                 </div>
               </div>
             </aside>
-            <div class="flex-grow relative flex flex-col justify-center px-8 lg:px-20 bg-creme">
+            <div class="flex-grow relative flex flex-col justify-center px-8 lg:px-20 bg-white">
               <div class="absolute inset-0 z-0">
-                <div class="absolute inset-0 bg-gradient-to-r from-creme via-creme/20 to-transparent z-10"></div>
+                <div class="absolute inset-0 bg-gradient-to-r from-white via-white/20 to-transparent z-10"></div>
                 <img alt="Hotel Exterior" class="w-full h-full object-cover opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaLQ3E9FjejTvUcewdnINn8UedkPichivCXHZk2HRxaZl4d186DdSXwalzGXwCXm9A95uFanmckXH_LnmNN38diQ4LtXVKgp4Mblp-skgy2c0MzkwhfIfZAj6jUh9AF3_t4Ala55N7Ra60AwIHKDmzQW8dNCr03Oqfr1_smuQ2Fhss6jS-djSU7uSVg0LC8ob3Cg6gEKYSSQJYIjWP_cvcdxzJ6b0eWk0UFHggPinTpVUIX9_Rx2UZpCIbVEfWPugjbNsdoWwYqptx"/>
               </div>
               <div class="relative z-20 max-w-3xl">
                 <h1 class="text-primary text-4xl lg:text-7xl font-black leading-[1.1] tracking-tighter mb-6">
                   Reserva tu estadía en minutos, sin intermediarios.
                 </h1>
-                <p class="text-primary/70 text-lg lg:text-xl font-normal leading-relaxed max-w-xl mb-0">
+                <p class="text-primary/70 text-lg lg:text-xl font-normal leading-[1.6] max-w-xl mb-0">
                   Disponibilidad en tiempo real, confirmación inmediata y todos los servicios incluidos para una experiencia cómoda y sin complicaciones.
                 </p>
               </div>
-              <div class="lg:hidden mt-12 bg-creme border border-primary/10 p-4 rounded grid grid-cols-1 gap-4 z-20 shadow-xl">
+              <div class="lg:hidden mt-12 bg-white border border-primary/10 p-4 rounded grid grid-cols-1 gap-4 z-20 shadow-xl">
                 <button class="bg-secondary text-white py-3 rounded text-xs font-bold uppercase tracking-widest">Reservar Ahora</button>
               </div>
             </div>
           </section>
-          <section class="py-24 px-6 lg:px-20 bg-creme">
+          <section class="py-24 px-6 lg:px-20 bg-white">
             <div class="max-w-full mx-auto">
               <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
                 <div class="max-w-xl">
                   <h2 class="text-2xl md:text-4xl font-black text-primary mb-4 tracking-tighter">Comodidad total en un solo lugar.</h2>
                   <div class="h-1 w-20 bg-secondary"></div>
                 </div>
-                <p class="text-muted text-sm font-medium uppercase tracking-widest">Aviro Business Class</p>
+                <p class="text-primary/80 text-sm font-medium uppercase tracking-widest">Aviro Business Class</p>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 border-t border-l border-primary/5">
                 <div class="bg-primary/5 p-10 border-r border-b border-primary/5 hover:bg-primary/10 transition-all group">
@@ -113,58 +113,58 @@ export default function HomeLight() {
                     <span class="material-symbols-outlined text-4xl">bed</span>
                   </div>
                   <h3 class="text-lg font-bold mb-4 text-primary tracking-tight">Habitaciones Premium</h3>
-                  <p class="text-primary/60 text-sm leading-relaxed">Descanso garantizado con sábanas de 400 hilos y limpieza profunda diaria.</p>
+                  <p class="text-primary/80 text-sm leading-relaxed">Descanso garantizado con sábanas de 400 hilos y limpieza profunda diaria.</p>
                 </div>
                 <div class="bg-primary/5 p-10 border-r border-b border-primary/5 hover:bg-primary/10 transition-all group">
                   <div class="text-secondary mb-8 transition-transform group-hover:scale-110">
                     <span class="material-symbols-outlined text-4xl">restaurant</span>
                   </div>
                   <h3 class="text-lg font-bold mb-4 text-primary tracking-tight">Gastronomía</h3>
-                  <p class="text-primary/60 text-sm leading-relaxed">Restaurante de autor con platos locales e internacionales de alta cocina.</p>
+                  <p class="text-primary/80 text-sm leading-relaxed">Restaurante de autor con platos locales e internacionales de alta cocina.</p>
                 </div>
                 <div class="bg-primary/5 p-10 border-r border-b border-primary/5 hover:bg-primary/10 transition-all group">
                   <div class="text-secondary mb-8 transition-transform group-hover:scale-110">
                     <span class="material-symbols-outlined text-4xl">coffee</span>
                   </div>
                   <h3 class="text-lg font-bold mb-4 text-primary tracking-tight">Desayuno Buffet</h3>
-                  <p class="text-primary/60 text-sm leading-relaxed">Comienza tu día con la mejor selección de frutas, panes y café de especialidad.</p>
+                  <p class="text-primary/80 text-sm leading-relaxed">Comienza tu día con la mejor selección de frutas, panes y café de especialidad.</p>
                 </div>
                 <div class="bg-primary/5 p-10 border-r border-b border-primary/5 hover:bg-primary/10 transition-all group">
                   <div class="text-secondary mb-8 transition-transform group-hover:scale-110">
                     <span class="material-symbols-outlined text-4xl">local_parking</span>
                   </div>
                   <h3 class="text-lg font-bold mb-4 text-primary tracking-tight">Parking Gratis</h3>
-                  <p class="text-primary/60 text-sm leading-relaxed">Seguridad 24/7 para tu vehículo sin costos adicionales durante tu estadía.</p>
+                  <p class="text-primary/80 text-sm leading-relaxed">Seguridad 24/7 para tu vehículo sin costos adicionales durante tu estadía.</p>
                 </div>
               </div>
             </div>
           </section>
-          <section class="py-24 bg-primary text-creme relative overflow-hidden">
-            <div class="absolute inset-0 bg-black/5 pointer-events-none"></div>
+          <section class="py-24 bg-primary text-white relative overflow-hidden">
+            <div class="absolute inset-0 bg-primary/10 pointer-events-none"></div>
             <div class="max-w-7xl mx-auto px-6 lg:px-20 relative z-10">
               <div class="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
                 <div>
                   <h2 class="text-4xl font-black mb-12 tracking-tighter">Nuestra excelencia en números</h2>
-                  <div class="grid grid-cols-2 gap-px bg-creme/10 border border-creme/10">
-                    <div class="bg-creme/5 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-creme mb-2">15k+</div>
-                      <div class="text-creme/60 text-xs font-bold uppercase tracking-widest">Clientes satisfechos</div>
+                  <div class="grid grid-cols-2 gap-px bg-white/10 border border-white/10">
+                    <div class="bg-white/5 backdrop-blur-sm p-10">
+                      <div class="text-5xl font-black text-white mb-2">15k+</div>
+                      <div class="text-creme/80 text-xs font-bold uppercase tracking-widest">Clientes satisfechos</div>
                     </div>
-                    <div class="bg-creme/5 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-creme mb-2">120+</div>
-                      <div class="text-creme/60 text-xs font-bold uppercase tracking-widest">Empresas que confían</div>
+                    <div class="bg-white/5 backdrop-blur-sm p-10">
+                      <div class="text-5xl font-black text-white mb-2">120+</div>
+                      <div class="text-creme/80 text-xs font-bold uppercase tracking-widest">Empresas que confían</div>
                     </div>
-                    <div class="bg-creme/5 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-creme mb-2">25</div>
-                      <div class="text-creme/60 text-xs font-bold uppercase tracking-widest">Años de servicio</div>
+                    <div class="bg-white/5 backdrop-blur-sm p-10">
+                      <div class="text-5xl font-black text-white mb-2">25</div>
+                      <div class="text-creme/80 text-xs font-bold uppercase tracking-widest">Años de servicio</div>
                     </div>
-                    <div class="bg-creme/5 backdrop-blur-sm p-10">
-                      <div class="text-5xl font-black text-creme mb-2">4.9</div>
-                      <div class="text-creme/60 text-xs font-bold uppercase tracking-widest">Calificación promedio</div>
+                    <div class="bg-white/5 backdrop-blur-sm p-10">
+                      <div class="text-5xl font-black text-white mb-2">4.9</div>
+                      <div class="text-creme/80 text-xs font-bold uppercase tracking-widest">Calificación promedio</div>
                     </div>
                   </div>
                 </div>
-                <div class="bg-creme p-12 rounded-lg border border-primary/5 shadow-2xl relative">
+                <div class="bg-white p-12 rounded-lg border border-primary/5 shadow-2xl relative">
                   <span class="material-symbols-outlined text-secondary text-6xl opacity-20 absolute top-8 right-8">format_quote</span>
                   <p class="text-xl font-light italic leading-relaxed mb-10 text-primary/80">
                     "La mejor experiencia corporativa que he tenido. El proceso de reserva es increíblemente fluido y la atención al detalle en las habitaciones es de primer nivel. Hotel Aviro es mi elección segura en cada viaje."
@@ -180,7 +180,7 @@ export default function HomeLight() {
               </div>
             </div>
           </section>
-          <section class="py-24 px-6 lg:px-20 bg-creme">
+          <section class="py-24 px-6 lg:px-20 bg-white">
             <div class="max-w-7xl mx-auto">
               <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center mb-32">
                 <div>
@@ -191,21 +191,21 @@ export default function HomeLight() {
                       <span class="material-symbols-outlined text-secondary shrink-0">verified_user</span>
                       <div>
                         <p class="font-bold text-lg text-primary">Sin Cargos Ocultos</p>
-                        <p class="text-muted text-sm leading-relaxed mt-1">El precio que ves es el que pagas, con todos los impuestos incluidos.</p>
+                        <p class="text-primary/80 text-sm leading-relaxed mt-1">El precio que ves es el que pagas, con todos los impuestos incluidos.</p>
                       </div>
                     </li>
                     <li class="flex gap-5">
                       <span class="material-symbols-outlined text-secondary shrink-0">router</span>
                       <div>
                         <p class="font-bold text-lg text-primary">Wi-Fi de Alta Velocidad</p>
-                        <p class="text-muted text-sm leading-relaxed mt-1">Conexión simétrica en todo el hotel, ideal para videoconferencias.</p>
+                        <p class="text-primary/80 text-sm leading-relaxed mt-1">Conexión simétrica en todo el hotel, ideal para videoconferencias.</p>
                       </div>
                     </li>
                     <li class="flex gap-5">
                       <span class="material-symbols-outlined text-secondary shrink-0">headset_mic</span>
                       <div>
                         <p class="font-bold text-lg text-primary">Soporte 24/7</p>
-                        <p class="text-muted text-sm leading-relaxed mt-1">Atención personalizada en recepción y vía WhatsApp en cualquier momento.</p>
+                        <p class="text-primary/80 text-sm leading-relaxed mt-1">Atención personalizada en recepción y vía WhatsApp en cualquier momento.</p>
                       </div>
                     </li>
                   </ul>
@@ -215,24 +215,27 @@ export default function HomeLight() {
                   <img alt="Restaurante" class="rounded-lg h-96 w-full object-cover mt-16" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBpyDuFxDJwRJOGm9ybLAC7nOl_h01YCjxq8pDUVwXeZiN6bGZQ5X6kxYbBWHq5SKWKm46T8voC5mgq09BFOMbdWFHnkaVDyAipH06PNVm7WQN1om6Pda9BrZ8lJqmNWDOvXcb6BhMuJRWZRAc8RHrJ7MycWil7XAWmbaK3OlPkPO6vpMEMuKKYq0jQeyXZtXQkG02-1ngNBc4p4CEG5cLoHVht0BSCP8p--PbX5CJHgWtSdk0kNyb4cpC_FP5fG4k84Sd_9cdVBS6"/>
                 </div>
               </div>
-              <div class="border-t border-primary/10 pt-20">
-                <h2 class="text-xs font-black text-muted uppercase tracking-[0.4em] mb-16 text-center">Proceso Simple</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-primary/10 border border-primary/10">
-                  <div class="bg-creme p-12 text-center group">
-                    <div class="size-16 rounded border border-primary/10 flex items-center justify-center text-primary/40 text-xl font-black mb-8 mx-auto group-hover:bg-primary group-hover:text-creme group-hover:border-primary transition-all">01</div>
-                    <h4 class="text-lg font-bold text-primary mb-4">Consulta</h4>
-                    <p class="text-muted text-sm">Busca tus fechas y elige tu habitación ideal.</p>
-                  </div>
-                  <div class="bg-creme p-12 text-center group">
-                    <div class="size-16 rounded border border-primary/10 flex items-center justify-center text-primary/40 text-xl font-black mb-8 mx-auto group-hover:bg-primary group-hover:text-creme group-hover:border-primary transition-all">02</div>
-                    <h4 class="text-lg font-bold text-primary mb-4">Confirmación</h4>
-                    <p class="text-muted text-sm">Recibe tu voucher digital al instante.</p>
-                  </div>
-                  <div class="bg-creme p-12 text-center group">
-                    <div class="size-16 rounded border border-primary/10 flex items-center justify-center text-primary/40 text-xl font-black mb-8 mx-auto group-hover:bg-primary group-hover:text-creme group-hover:border-primary transition-all">03</div>
-                    <h4 class="text-lg font-bold text-primary mb-4">Estadía</h4>
-                    <p class="text-muted text-sm">Disfruta de la mejor experiencia en Aviro.</p>
-                  </div>
+              
+            </div>
+          </section>
+          <section class="py-20 px-6 lg:px-20 bg-creme border-y border-primary/15">
+            <div class="max-w-7xl mx-auto">
+              <h2 class="text-xs font-black text-primary uppercase tracking-[0.4em] mb-16 text-center">Proceso Simple</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white border border-primary/20 p-12 text-center group">
+                  <div class="size-16 rounded border border-primary/20 bg-white/70 flex items-center justify-center text-primary/70 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-white group-hover:border-secondary transition-all">01</div>
+                  <h4 class="text-lg font-bold text-primary mb-4">Consulta</h4>
+                  <p class="text-primary text-sm">Busca tus fechas y elige tu habitación ideal.</p>
+                </div>
+                <div class="bg-white border border-primary/20 p-12 text-center group">
+                  <div class="size-16 rounded border border-primary/20 bg-white/70 flex items-center justify-center text-primary/70 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-white group-hover:border-secondary transition-all">02</div>
+                  <h4 class="text-lg font-bold text-primary mb-4">Confirmación</h4>
+                  <p class="text-primary text-sm">Recibe tu voucher digital al instante.</p>
+                </div>
+                <div class="bg-white border border-primary/20 p-12 text-center group">
+                  <div class="size-16 rounded border border-primary/20 bg-white/70 flex items-center justify-center text-primary/70 text-xl font-black mb-8 mx-auto group-hover:bg-secondary group-hover:text-white group-hover:border-secondary transition-all">03</div>
+                  <h4 class="text-lg font-bold text-primary mb-4">Estadía</h4>
+                  <p class="text-primary text-sm">Disfruta de la mejor experiencia en Aviro.</p>
                 </div>
               </div>
             </div>
@@ -240,7 +243,7 @@ export default function HomeLight() {
           <section class="py-16 px-6 lg:px-20 bg-primary/5 border-y border-primary/10">
             <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
               <h3 class="text-xs font-black uppercase tracking-[0.3em] text-muted border-l-2 border-primary pl-4">Métodos de Pago Seguros</h3>
-              <div class="flex flex-wrap justify-center gap-12 text-primary opacity-60">
+              <div class="flex flex-wrap justify-center gap-12 text-secondary opacity-80">
                 <div class="flex items-center gap-3">
                   <span class="material-symbols-outlined text-2xl">account_balance</span>
                   <span class="font-bold text-xs uppercase tracking-widest">Transferencias</span>
@@ -262,67 +265,67 @@ export default function HomeLight() {
           </section>
         `}} />
 
-        <footer className="bg-primary text-creme pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
+        <footer className="bg-primary text-white pt-24 pb-12 px-6 lg:px-20 border-t border-white/25" dangerouslySetInnerHTML={{ __html: `
           <div class="max-w-7xl mx-auto">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
-              <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
-                <p class="text-creme/60 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
-                <div class="flex gap-3">
-                  <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14 mb-20 text-center md:text-left">
+              <div class="flex flex-col items-center md:items-start">
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
+                <p class="text-creme text-base leading-relaxed mb-10 max-w-xs">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
+                <div class="flex gap-3 justify-center md:justify-start">
+                  <a class="size-10 bg-white/10 border border-white/25 rounded flex items-center justify-center text-white hover:bg-secondary hover:text-white hover:-translate-y-0.5 transition-all duration-200" href="#">
                     <span class="material-symbols-outlined text-lg">social_leaderboard</span>
                   </a>
-                  <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
+                  <a class="size-10 bg-white/10 border border-white/25 rounded flex items-center justify-center text-white hover:bg-secondary hover:text-white hover:-translate-y-0.5 transition-all duration-200" href="#">
                     <span class="material-symbols-outlined text-lg">photo_camera</span>
                   </a>
-                  <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
+                  <a class="size-10 bg-white/10 border border-white/25 rounded flex items-center justify-center text-white hover:bg-secondary hover:text-white hover:-translate-y-0.5 transition-all duration-200" href="#">
                     <span class="material-symbols-outlined text-lg">alternate_email</span>
                   </a>
                 </div>
               </div>
               <div>
-                <h4 class="text-xs font-black uppercase tracking-[0.2em] mb-8 text-creme">Enlaces Rápidos</h4>
-                <ul class="space-y-4 text-creme/60 text-sm">
-                  <li><a class="hover:text-creme transition-colors" href="/">Inicio</a></li>
-                  <li><a class="hover:text-creme transition-colors" href="#">Nuestros Servicios</a></li>
-                  <li><a class="hover:text-creme transition-colors" href="/habitaciones">Habitaciones</a></li>
-                  <li><a class="hover:text-creme transition-colors" href="#">Preguntas Frecuentes</a></li>
-                  <li><a class="hover:text-creme transition-colors" href="#">Libro de Reclamaciones</a></li>
+                <h4 class="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Enlaces Rápidos</h4>
+                <ul class="space-y-4 text-white text-base">
+                  <li><a class="hover:text-secondary hover:underline underline-offset-4 transition-colors duration-200" href="/">Inicio</a></li>
+                  <li><a class="hover:text-secondary hover:underline underline-offset-4 transition-colors duration-200" href="#">Nuestros Servicios</a></li>
+                  <li><a class="hover:text-secondary hover:underline underline-offset-4 transition-colors duration-200" href="/habitaciones">Habitaciones</a></li>
+                  <li><a class="hover:text-secondary hover:underline underline-offset-4 transition-colors duration-200" href="#">Preguntas Frecuentes</a></li>
+                  <li><a class="hover:text-secondary hover:underline underline-offset-4 transition-colors duration-200" href="#">Libro de Reclamaciones</a></li>
                 </ul>
               </div>
               <div>
-                <h4 class="text-xs font-black uppercase tracking-[0.2em] mb-8 text-creme">Servicios</h4>
-                <ul class="space-y-4 text-creme/60 text-sm">
-                  <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary">check</span> Lavandería Express</li>
-                  <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary">check</span> Room Service 24h</li>
-                  <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary">check</span> Pet Friendly</li>
-                  <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary">check</span> Salas de Reunión</li>
-                  <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary">check</span> Gimnasio</li>
+                <h4 class="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Servicios</h4>
+                <ul class="space-y-4 text-white text-base">
+                  <li class="group flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary transition-colors group-hover:text-white">check</span> Lavandería Express</li>
+                  <li class="group flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary transition-colors group-hover:text-white">check</span> Room Service 24h</li>
+                  <li class="group flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary transition-colors group-hover:text-white">check</span> Pet Friendly</li>
+                  <li class="group flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary transition-colors group-hover:text-white">check</span> Salas de Reunión</li>
+                  <li class="group flex items-center gap-3"><span class="material-symbols-outlined text-xs text-secondary transition-colors group-hover:text-white">check</span> Gimnasio</li>
                 </ul>
               </div>
               <div>
-                <h4 class="text-xs font-black uppercase tracking-[0.2em] mb-8 text-creme">Contacto</h4>
-                <ul class="space-y-5 text-creme/60 text-sm">
-                  <li class="flex items-start gap-3">
-                    <span class="material-symbols-outlined text-secondary text-xl">location_on</span>
+                <h4 class="text-sm font-black uppercase tracking-[0.2em] mb-8 text-white">Contacto</h4>
+                <ul class="space-y-5 text-white text-base">
+                  <li class="group flex items-start gap-3">
+                    <span class="material-symbols-outlined text-secondary text-xl transition-colors group-hover:text-white">location_on</span>
                     <span>Av. Empresarial 450, Centro Financiero</span>
                   </li>
-                  <li class="flex items-start gap-3">
-                    <span class="material-symbols-outlined text-secondary text-xl">call</span>
+                  <li class="group flex items-start gap-3">
+                    <span class="material-symbols-outlined text-secondary text-xl transition-colors group-hover:text-white">call</span>
                     <span>+51 987 654 321</span>
                   </li>
-                  <li class="flex items-start gap-3">
-                    <span class="material-symbols-outlined text-secondary text-xl">mail</span>
+                  <li class="group flex items-start gap-3">
+                    <span class="material-symbols-outlined text-secondary text-xl transition-colors group-hover:text-white">mail</span>
                     <span>reservas@hotelaviro.com</span>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="border-t border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-creme/40 text-[10px] font-bold uppercase tracking-widest">
+            <div class="border-t border-white/25 pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-creme text-xs font-bold uppercase tracking-widest text-center md:text-left">
               <p>© 2024 Hotel Aviro. Todos los derechos reservados.</p>
-              <div class="flex gap-10">
-                <a class="hover:text-creme transition-colors" href="#">Términos y Condiciones</a>
-                <a class="hover:text-creme transition-colors" href="#">Política de Privacidad</a>
+              <div class="flex flex-wrap justify-center gap-6 md:gap-10">
+                <a class="hover:text-secondary transition-colors duration-200" href="#">Términos y Condiciones</a>
+                <a class="hover:text-secondary transition-colors duration-200" href="#">Política de Privacidad</a>
               </div>
             </div>
           </div>
@@ -331,5 +334,12 @@ export default function HomeLight() {
     </div>
   );
 }
+
+
+
+
+
+
+
 
 

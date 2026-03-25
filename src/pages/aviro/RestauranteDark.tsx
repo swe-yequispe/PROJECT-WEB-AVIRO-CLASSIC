@@ -1,4 +1,4 @@
-
+﻿﻿
 export default function RestauranteDark() {
   return (
     <div className="font-display bg-zinc-900 text-primary">
@@ -6,10 +6,10 @@ export default function RestauranteDark() {
         <header className="sticky top-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-white/5 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos Darkness</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-white/5 pr-4">
                 <button className="p-1.5 hover:bg-white/5 rounded transition-colors text-zinc-400 hover:text-primary">
@@ -26,7 +26,7 @@ export default function RestauranteDark() {
                 Reservar ahora
               </button>
               <button className="flex items-center justify-center rounded h-9 px-5 border border-white/10 bg-transparent text-zinc-100 text-xs font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
-                Iniciar sesion
+                Iniciar sesión
               </button>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function RestauranteDark() {
                     <h4 class="text-zinc-100 font-bold text-sm mb-2 group-hover:text-secondary transition-colors">Brunch del Chef</h4>
                     <p class="text-zinc-500 text-xs leading-relaxed">Experiencia culinaria dominical con estaciones de cocina en vivo.</p>
                   </div>
-                  <button class="w-full bg-secondary hover:opacity-90 text-white py-4 rounded text-xs font-black uppercase tracking-widest transition-all mt-8 flex items-center justify-center gap-2">
+                  <button class="w-full bg-secondary hover:opacity-90 text-zinc-100 py-4 rounded text-xs font-black uppercase tracking-widest transition-all mt-8 flex items-center justify-center gap-2">
                     <span class="material-symbols-outlined text-lg">calendar_month</span>
                     Ver Calendario Completo
                   </button>
@@ -83,7 +83,7 @@ export default function RestauranteDark() {
                   <a class="bg-zinc-900 text-zinc-100 px-8 py-4 rounded text-xs font-black uppercase tracking-widest hover:opacity-90 transition-all flex items-center gap-2" href="#menu">
                     Explorar Menú <span class="material-symbols-outlined text-sm">restaurant_menu</span>
                   </a>
-                  <a class="bg-secondary text-white px-8 py-4 rounded text-xs font-black uppercase tracking-widest hover:opacity-90 transition-all" href="#eventos">
+                  <a class="bg-secondary text-zinc-100 px-8 py-4 rounded text-xs font-black uppercase tracking-widest hover:opacity-90 transition-all" href="#eventos">
                     Reservar Evento
                   </a>
                 </div>
@@ -112,7 +112,7 @@ export default function RestauranteDark() {
                     </div>
                     <div class="group border-l-4 border-secondary pl-4 py-1">
                       <div class="flex justify-between items-end mb-2">
-                        <h4 class="text-lg font-bold text-primary">Carpaccio de Res <span class="ml-2 text-[10px] bg-secondary text-white px-2 py-0.5 rounded uppercase tracking-widest">Sugerencia</span></h4>
+                        <h4 class="text-lg font-bold text-primary">Carpaccio de Res <span class="ml-2 text-[10px] bg-secondary text-zinc-100 px-2 py-0.5 rounded uppercase tracking-widest">Sugerencia</span></h4>
                         <span class="text-zinc-100 font-bold">$26</span>
                       </div>
                       <p class="text-zinc-500 text-sm italic">Finos cortes de lomo, aceite de trufa, alcaparras y lascas de parmesano.</p>
@@ -134,7 +134,7 @@ export default function RestauranteDark() {
                   <div class="space-y-10">
                     <div class="group border-l-4 border-secondary pl-4 py-1">
                       <div class="flex justify-between items-end mb-2">
-                        <h4 class="text-lg font-bold text-primary">Risotto de Hongos Silvestres <span class="ml-2 text-[10px] bg-secondary text-white px-2 py-0.5 rounded uppercase tracking-widest">Favorito</span></h4>
+                        <h4 class="text-lg font-bold text-primary">Risotto de Hongos Silvestres <span class="ml-2 text-[10px] bg-secondary text-zinc-100 px-2 py-0.5 rounded uppercase tracking-widest">Favorito</span></h4>
                         <span class="text-zinc-100 font-bold">$38</span>
                       </div>
                       <p class="text-zinc-500 text-sm italic">Variedad de setas, mantequilla de trufa negra y queso pecorino.</p>
@@ -193,7 +193,7 @@ export default function RestauranteDark() {
                       <span class="font-bold">Servicio de Catering Externo</span>
                     </li>
                   </ul>
-                  <button class="bg-zinc-900 text-zinc-100 px-10 py-5 rounded text-xs font-black uppercase tracking-widest hover:bg-secondary hover:text-white transition-all">
+                  <button class="bg-zinc-900 text-zinc-100 px-10 py-5 rounded text-xs font-black uppercase tracking-widest hover:bg-secondary hover:text-zinc-100 transition-all">
                     Solicitar Información
                   </button>
                 </div>
@@ -224,11 +224,11 @@ export default function RestauranteDark() {
           </section>
         `}} />
 
-        <footer className="bg-zinc-900 text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
+        <footer className="text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
           <div class="max-w-7xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-zinc-500 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -293,4 +293,20 @@ export default function RestauranteDark() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

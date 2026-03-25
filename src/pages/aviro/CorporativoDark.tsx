@@ -1,4 +1,4 @@
-
+﻿﻿
 export default function CorporativoDark() {
   return (
     <div className="font-display bg-zinc-900 text-primary">
@@ -6,10 +6,10 @@ export default function CorporativoDark() {
         <header className="sticky top-0 z-50 bg-[#121212]/95 backdrop-blur-md border-b border-white/5 px-6 lg:px-12 py-4 xl:px-20">
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <div className="flex items-center gap-4">
-              <img alt="Logo Hotel Aviro" className="h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuXq8rjVakM9drIaR9kjCOCFywTjZX0aASwpKIwlxZj0sja7toViuQLP-uP_x2rdaieOgTA9pZ4A10-pMV-YgeOgcv5D3_rJ74TlmBNb5JoN4-p-ooeSOO6MP2nhXYme2yjwfQ6PvzxVtrAZNrpaCY6X_YJlT7mAZz34YUdwMUZkQ24M-V9z19G7F0mr5c28L4_5Cdi11uFJnl9ODVace9Je2C1G7e7L0gHn6j0e_CNS6_7tCTl5Yd9zegQAyc-IujyOqkuXjIwams"/>
+              <span className="text-xs sm:text-sm font-black uppercase tracking-[0.2em]">Aviró Hotel Plaza</span>
             </div>
-            <nav className="hidden xl:flex items-center gap-6">
-              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante Darkness</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life Darkness</a><a className="text-zinc-100 font-bold text-xs uppercase tracking-widest border-b-2 border-secondary pb-1" href="#">Corporativos Darkness</a></nav>
+            <nav className="hidden xl:flex items-center gap-6 xl:ml-10">
+              <a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Inicio</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Habitaciones</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Restaurante</a><a className="text-zinc-400 text-xs font-bold uppercase tracking-widest hover:text-zinc-100 transition-colors" href="#">Life</a><a className="text-zinc-100 font-bold text-xs uppercase tracking-widest border-b-2 border-secondary pb-1" href="#">Corporativos</a></nav>
             <div className="flex items-center gap-3">
               <div className="hidden md:flex items-center gap-2 mr-4 border-r border-white/5 pr-4">
                 <button className="p-1.5 hover:bg-white/5 rounded transition-colors text-zinc-400 hover:text-primary">
@@ -36,7 +36,7 @@ export default function CorporativoDark() {
           <section class="relative min-h-[calc(100vh-88px)] flex flex-row overflow-hidden border-b border-white/5 bg-zinc-900"><aside class="hidden lg:flex flex-col w-[400px] bg-zinc-900 border-r border-white/5 z-40 p-12 shrink-0">
             <div class="booking-sidebar w-full">
               <div class="mb-10">
-                <span class="inline-block px-3 py-1 bg-secondary text-white text-[10px] font-black uppercase tracking-widest rounded-sm mb-4">Portal Corporativo</span>
+                <span class="inline-block px-3 py-1 bg-secondary text-zinc-100 text-[10px] font-black uppercase tracking-widest rounded-sm mb-4">Portal Corporativo</span>
                 <h3 class="text-3xl font-black text-zinc-100 leading-tight tracking-tighter">Reserva con tu Tarifa Preferencial</h3>
               </div>
               <div class="space-y-6">
@@ -54,7 +54,7 @@ export default function CorporativoDark() {
                     <input class="w-full bg-white/10 border border-white/20 rounded p-4 text-sm text-zinc-100 focus:border-secondary focus:ring-0 transition-all" type="date"/>
                   </div>
                 </div>
-                <button class="w-full bg-secondary hover:scale-[1.02] text-white py-5 rounded text-xs font-black uppercase tracking-widest transition-all mt-6 flex items-center justify-center gap-2 shadow-lg">
+                <button class="w-full bg-secondary hover:scale-[1.02] text-zinc-100 py-5 rounded text-xs font-black uppercase tracking-widest transition-all mt-6 flex items-center justify-center gap-2 shadow-lg">
                   <span class="material-symbols-outlined text-lg">calendar_month</span>
                   Ver Disponibilidad Corp
                 </button>
@@ -133,7 +133,7 @@ export default function CorporativoDark() {
                   </ul>
                 </div>
                 <div class="bg-zinc-900 text-zinc-100 p-10 rounded-xl shadow-2xl lg:-mt-8 lg:mb-8 border-t-4 border-secondary relative overflow-hidden">
-                  <div class="absolute top-4 right-4 bg-secondary text-white text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest">Recomendado</div>
+                  <div class="absolute top-4 right-4 bg-secondary text-zinc-100 text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-widest">Recomendado</div>
                   <h4 class="text-zinc-100 font-bold uppercase tracking-widest text-xs mb-8">Beneficios Corporativos</h4>
                   <ul class="space-y-6">
                     <li class="flex items-center gap-3">
@@ -157,7 +157,7 @@ export default function CorporativoDark() {
                       <span class="text-sm font-bold">Wi-Fi Premium Simétrico</span>
                     </li>
                   </ul>
-                  <button class="w-full mt-10 bg-secondary py-4 font-black uppercase text-xs tracking-widest rounded-lg hover:bg-black hover:text-zinc-100 transition-all">Solicitar Convenio</button>
+                  <button class="w-full mt-10 bg-secondary py-4 font-black uppercase text-xs tracking-widest rounded-lg hover:bg-zinc-900 hover:text-zinc-100 transition-all">Solicitar Convenio</button>
                 </div>
                 <div class="bg-white/50 border border-white/5 p-10 rounded-xl">
                   <h4 class="text-zinc-500 font-bold uppercase tracking-widest text-xs mb-8">Servicios Complementarios</h4>
@@ -210,7 +210,7 @@ export default function CorporativoDark() {
                     </div>
                   </div>
                 </div>
-                <div class="bg-black p-12 rounded-2xl shadow-xl border border-white/5">
+                <div class="bg-zinc-900 p-12 rounded-2xl shadow-xl border border-white/5">
                   <div class="mb-10 text-center">
                     <p class="text-primary/40 font-black uppercase tracking-[0.2em] text-[10px] mb-2">Simulador de Ahorro</p>
                     <h3 class="text-2xl font-black text-primary">Ahorro Estimado Anual</h3>
@@ -276,7 +276,7 @@ export default function CorporativoDark() {
                     "Para nuestra firma, Hotel Aviro no es solo un alojamiento, es parte de nuestro ecosistema productivo. El check-in a las 10 AM nos permite llegar directamente del aeropuerto a trabajar, ahorrando horas valiosas."
                   </p>
                   <div class="flex items-center gap-5">
-                    <div class="size-14 rounded bg-secondary flex items-center justify-center text-white font-black text-xl">JD</div>
+                    <div class="size-14 rounded bg-secondary flex items-center justify-center text-zinc-100 font-black text-xl">JD</div>
                     <div>
                       <p class="font-black text-zinc-100 uppercase tracking-wider">Julian Delgado</p>
                       <p class="text-xs text-zinc-500 font-bold uppercase tracking-widest">Director Ejecutivo, TechCorp</p>
@@ -300,7 +300,7 @@ export default function CorporativoDark() {
                 </div>
                 <div class="bg-zinc-900 p-12 text-center group transition-all">
                   <div class="size-16 rounded border border-white/5 flex items-center justify-center text-primary/40 text-xl font-black mb-8 mx-auto group-hover:bg-zinc-900 group-hover:text-zinc-100 transition-all">02</div>
-                  <h4 class="text-lg font-bold text-zinc-100 mb-4">Código Único</h4>
+                  <h4 class="text-lg font-bold text-zinc-100 mb-4">Código ñsnico</h4>
                   <p class="text-zinc-500 text-sm">Recibe un código exclusivo para que tus colaboradores reserven directamente.</p>
                 </div>
                 <div class="bg-zinc-900 p-12 text-center group transition-all">
@@ -336,11 +336,11 @@ export default function CorporativoDark() {
           </section>
         `}} />
 
-        <footer className="bg-zinc-900 text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
+        <footer className="text-zinc-100 pt-24 pb-12 px-6 lg:px-20 border-t border-white/5" dangerouslySetInnerHTML={{ __html: `
           <div class="max-w-7xl mx-auto max-w-[1440px]">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
               <div>
-                <img alt="Logo Aviro Light" class="h-8 mb-10 brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgNUt7wKt_B06xjYbaqm6cdoDpJDGsjXVaoglnrtbalW_k1DPSRu9Yzr1rzoVx-nG5KIYJj5IEhbmwCwZfqxOjZlRPzPow7zokCgmYScctR0RvjlymrJBb1q5a7z0E-4BUXYEL86SymghoWyLZftMAMiY1kbFx_69VbSW8MEkw42nOYgPNRrQ5c3p0Q01dRm7KAsxD4sBQO8ch8jVQ55YXMJ9EgFnwgiqTS_1GPs5zRnK5c6k4nF8uItYrvoRkl2Op1kqpqHlOD1RS"/>
+                <img alt="Logo Aviró Hotel Plaza" class="h-24 mb-10 mx-auto block" src="/aviro-logo-plaza.png" />
                 <p class="text-zinc-500 text-sm leading-relaxed mb-10">Elevando el estándar de hospitalidad en la ciudad para viajeros de negocios y placer.</p>
                 <div class="flex gap-3">
                   <a class="size-9 bg-white/5 rounded flex items-center justify-center hover:bg-secondary transition-colors" href="#">
@@ -405,4 +405,20 @@ export default function CorporativoDark() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
